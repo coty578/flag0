@@ -1,0 +1,85 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+.flag{
+    background-color: red;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.flag .first{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 50px;
+margin: 0px;
+padding: 0px;
+}
+
+.first .second{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 100px;
+margin: -3px;
+}
+.second .third{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 100px;
+margin: -3px;
+}
+.third .four{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 100px;
+margin: -3px;
+}
+
+.four .five{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 100px;
+margin: -3px;
+}
+
+.five .six{
+background-color: white;
+border: solid white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 100px;
+margin: -3px;
+}
+
+.flag .blue{
+    background-color: blue;
+    height: 406px;
+    width: 500px;
+    position: relative;
+}
+.blue .star{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    right: 225px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: white;
+}
